@@ -1099,8 +1099,11 @@ h3.comment-title a{
 }
 
 #sticky_menu a {
-	padding-left: 10px;
+	padding-left: 20px;
 	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: #600505;
 }
 
 
