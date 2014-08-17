@@ -8,9 +8,9 @@ body { background-color:#3A0404; }
 
 #wrap { border-top: 3px solid #C9973F; }
 
-#main-menu .menu a.active, #main-menu .menu ul a.active { background: #fff; color: #000000; }
+#main-menu .menu a.active, #main-menu .menu ul a.active { background: #fff; }
 
-#main-menu .menu a.active-trail { background: #C9973F; color: #000000; }
+#main-menu .menu a.active-trail { background: #C9973F; }
 
 #sitename h1 a:hover, #sitename h2 a:hover { color: #F7001B; }
 
@@ -25,7 +25,7 @@ body { background-color:#3A0404; }
 
 /* Link */
 
-a { color: #2e70b1; }
+
 
 a:hover { color: #b81008; }
 

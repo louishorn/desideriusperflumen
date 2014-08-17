@@ -96,14 +96,6 @@
   
   <?php print render($page['header']); ?>
   
-  <div id='sticky_menu'>
-  <ul>
-	  <li><a href='#'>Our Property</a></li>
-	  <li><a href='#'>Rooms & Rates</a></li>
-	  <li><a href='#'>Location & Directions</a></li>
-  </ul>
-  </div>
-  
     <?php if (theme_get_setting('slideshow_display','business')): ?>
     <?php 
     $url1 = check_plain(theme_get_setting('slide1_url','business'));
@@ -170,6 +162,19 @@
     </div>
   <?php endif; ?>
   
+  
+  <div id="main">
+    <section id="post-content" role="main">
+    <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
+    <?php print render($title_prefix); ?>
+    <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
+    <?php print render($title_suffix); ?>
+    <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
+    <?php print render($page['help']); ?>
+    <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+    <?php print render($page['content']); ?>
+    </section> <!-- /#main -->
+  </div>	
 
   
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_fourth']): ?>
