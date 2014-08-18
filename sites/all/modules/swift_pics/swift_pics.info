@@ -1,0 +1,12 @@
+name = Swift Pics
+description = Provides a quick way to create photo galleries using an image folder path
+core = 7.x
+dependencies[] = file
+dependencies[] = image
+
+; Information added by drupal.org packaging script on 2013-07-23
+version = "7.x-1.0"
+core = "7.x"
+project = "swift_pics"
+datestamp = "1374584503"
+
