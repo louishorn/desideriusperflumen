@@ -164,7 +164,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #2E70B1;
+  color: #F7001A;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -693,10 +693,10 @@ body.sidebar-first #post-content {
 
 .page-title {
   margin-bottom: 10px !important;
-  padding: 10px;
-  background-color: #E0D4BE;
-  border: 1px dashed #DD974B;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
+  color: #FA001C;
 }
 #breadcrumbs {
   border-bottom: 1px solid #EEE;
@@ -743,6 +743,13 @@ body.sidebar-first #post-content {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 20px;
+}
+
+.logo_login {
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	float:left;
 }
 
 .credits {
@@ -1104,5 +1111,7 @@ h3.comment-title a{
 	font-size: 16px;
 	color: #600505;
 }
+
+
 
 

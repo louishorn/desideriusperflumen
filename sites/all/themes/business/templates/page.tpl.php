@@ -144,6 +144,7 @@
   <div class="clear"></div>
   <div id="copyright">
 	<div>
+		<a href='<?php print $front_page; ?>?q=user'><img src="<?php print $logo; ?>" alt="." class='logo_login' /></a>
     	<?php if ($footer_copyright): ?>
       	  <?php print $footer_copyright; ?>
     	<?php endif; ?>

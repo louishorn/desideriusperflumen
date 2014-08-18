@@ -96,6 +96,8 @@
   
   <?php print render($page['header']); ?>
   
+    <?php print $messages; ?>
+  
     <?php if (theme_get_setting('slideshow_display','business')): ?>
     <?php 
     $url1 = check_plain(theme_get_setting('slide1_url','business'));
@@ -126,8 +128,6 @@
       </div><!-- EOF: #banner -->
 	<?php endif; ?>  
 
-
-  <?php print $messages; ?>
 
   <?php if ($page['homequotes']): ?>
   <div id="home-quote"> <?php print render($page['homequotes']); ?></div>
@@ -202,6 +202,7 @@
   <div class="clear"></div>
   <div id="copyright">
 	<div>
+        <a href='<?php print $front_page; ?>?q=user'><img src="<?php print $logo; ?>" alt="." class='logo_login' /></a>
     	<?php if ($footer_copyright): ?>
       	  <?php print $footer_copyright; ?>
     	<?php endif; ?>
