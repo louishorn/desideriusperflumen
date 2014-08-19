@@ -27,7 +27,7 @@ body { background-color:#3A0404; }
 
 
 
-a:hover { color: #b81008; }
+a:hover { color: red; }
 
 .links li a:hover, .field-name-field-tags a:hover { color: #b81008; }
 
