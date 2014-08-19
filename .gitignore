@@ -25,9 +25,9 @@ Temporary Items
 sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
-files/
-sites/*/files
-sites/*/private
+# files/
+# sites/*/files
+# sites/*/private
 
 # Ignore default text files
 robots.txt
