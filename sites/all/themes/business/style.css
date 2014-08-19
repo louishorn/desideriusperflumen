@@ -193,8 +193,9 @@ em {
   width: 950px;
   background: #FFF;
   margin: 0 auto;
-  border-top: 3px solid #3A0404;
+  border-top: 5px solid #3A0404;
 }
+
 #main {
   padding: 30px;
 }
@@ -250,7 +251,6 @@ h4 a {
 #header {
   width: 930px;
   position: relative;
-  border-bottom: 1px solid #FFF;
   padding-left: 20px;
 }
 
@@ -380,7 +380,6 @@ h4 a {
 #main-menu .menu a:hover,
 #main-menu .menu a:active {
   color: #000;
-  background: #B81007;
 }
 
 #main-menu .menu a.active {
@@ -388,15 +387,16 @@ h4 a {
   background: #B81007;
 }
 
-#main-menu .menu a.active-trail{
+#main-menu .menu a.active-trail {
   color: #000 !important;
-  background: #B81007;
+  background: #E0D4BE; 
+  color: #FFF;
 }
 
 #main-menu .menu ul a:focus,
 #main-menu .menu ul a:hover,
 #main-menu .menu ul a:active {
-  background: #B81007;
+  color: #000;
 }
 
 #main-menu .menu li ul {
