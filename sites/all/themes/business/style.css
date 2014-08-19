@@ -522,7 +522,16 @@ li.sfHover > a > .sf-sub-indicator {
 }
 
 .home-highlight-box div {
-	padding: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.home-highlight-box img {
+  margin-bottom: 2px;
+  width: 100%;
+  -moz-box-shadow: 0px 0px 5px #CCC;
+  -webkit-box-shadow: 0px 0px 5px #CCC;
+  border-bottom: 5px double #DD974B;
 }
 
 .home-highlight-box h2 {
@@ -532,13 +541,6 @@ li.sfHover > a > .sf-sub-indicator {
   margin-bottom: 5px;
 }
 
-.home-highlight-box img {
-  margin-bottom: 2px;
-  width: 100%;
-  -moz-box-shadow: 0px 0px 5px #CCC;
-  -webkit-box-shadow: 0px 0px 5px #CCC;
-  border-bottom: 2px solid #DD974B;
-}
 
 /*-------------------------------------------*
 /* Footer
