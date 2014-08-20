@@ -191,7 +191,7 @@ em {
 
 #wrap {
   width: 950px;
-  background: #FFF;
+  background: #F2EFE9;
   margin: 0 auto;
   border-top: 5px solid #3A0404;
 }
@@ -583,7 +583,7 @@ li.sfHover > a > .sf-sub-indicator {
   position: relative;
   width: 950px;
   height: 360px;
-  background-color: #FFF;
+  background-color: #F2EFE9;
 }
 
 .main_view {
@@ -662,6 +662,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 #header {
   z-index:2;
+  background-color: #FFF;
 }
 
 #slider { 
@@ -1116,6 +1117,10 @@ h3.comment-title a{
 
 .username {
 	color: maroon;
+}
+
+.menu a {
+	font-weight: bold;
 }
 
 
