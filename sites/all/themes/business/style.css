@@ -795,8 +795,7 @@ body.sidebar-first #post-content {
 }
 
 .content table {
-  background: #ececec;
-  border: 1px solid #bbbbbb;
+
 }
 
 .content th {
@@ -1084,10 +1083,14 @@ h3.comment-title a{
 }
 
 .item-list .pager li {
-  background: #cfcfcf;
+  background: #E0D4BE;
   border-radius: 3px;
   margin-right: 4px;
   text-shadow: 1px 1px #fff;
+}
+
+.item-list .pager a {
+  color: #27411C;
 }
 
 #block-menu-menu-info-links {
@@ -1123,6 +1126,27 @@ h3.comment-title a{
 	font-weight: bold;
 }
 
+.views-view-grid table {
+	border: 0;
+}
+
+.views-view-grid td {
+	background-color: #F2EFE9;
+	text-align: center;
+	border: 0;
+	padding-bottom: 10px;
+}
+
+
+.views-view-grid a {
+	color: #000;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.field-content {
+	padding: 0;
+}
 
 
 
