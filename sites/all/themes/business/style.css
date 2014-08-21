@@ -759,6 +759,16 @@ body.sidebar-first #post-content {
   float: right;
 }
 
+.fb_link {
+	margin-right: 10px;
+	float:right;
+}
+
+.fb_link img {
+    height: 30px;
+}
+
+
 /*************************/
 .submitted {
   background: #E0D4BE;
@@ -1154,6 +1164,5 @@ h3.comment-title a{
     color: #333;
     font-family: 'Crimson Text', serif;
 }
-
 
 

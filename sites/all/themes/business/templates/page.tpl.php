@@ -144,12 +144,14 @@
   <div class="clear"></div>
   <div id="copyright">
 	<div>
-		<a href='<?php print $front_page; ?>?q=user'><img src="<?php print $logo; ?>" alt="." class='logo_login' /></a>
+        <a href='<?php print $front_page; ?>?q=user'><img src="<?php print $logo; ?>" alt="." class='logo_login' /></a>
     	<?php if ($footer_copyright): ?>
       	  <?php print $footer_copyright; ?>
     	<?php endif; ?>
+		<a class="fb_link" href='http://www.facebook.com/desiderius.perflumen'><img src="<?php print base_path()?>/sites/default/files/facebook-icon.png" alt="Join us on Facebook" /></a>
 	</div>
   </div>
   <?php endif; ?>
+  
   <div class='bottom_spacer'>&nbsp;</div>
 </div>
