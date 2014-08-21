@@ -4,9 +4,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[all][] = color/colors.css
-scripts[] = js/superfish.js
-scripts[] = js/supersubs.js
-scripts[] = js/sfmenu.js
+
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
 regions[homequotes]     = Home Quotes
