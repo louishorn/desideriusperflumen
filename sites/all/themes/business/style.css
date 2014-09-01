@@ -164,7 +164,7 @@ body {
 
 a {
   text-decoration: none;
-  color: orange;
+  color: #F7001A;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -1128,7 +1128,11 @@ h3.comment-title a{
 	padding-left: 20px;
 	text-decoration: none;
 	font-size: 16px;
-	color: #600505;
+	color: #3A0404;
+}
+
+#block-menu-menu-info-links a:hover {
+	color: red;
 }
 
 .username {
@@ -1161,11 +1165,14 @@ h3.comment-title a{
 	padding: 0;
 }
 
+.field-content img {
+     border: 5px ridge white;	
+}
+
 
 .mceContentBody {
 	background: #FFF;
     color: #333;
     font-family: 'Crimson Text', serif;
 }
-
 
