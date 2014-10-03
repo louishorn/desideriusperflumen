@@ -812,19 +812,19 @@ body.sidebar-first #post-content {
 }
 
 .content th {
-  background: #dbdbdb;
-  padding: 5px 4px;
+  background: #fff;
+  padding: 4px;
   text-shadow: 1px 1px #fff;
-  border-right: 1px solid #c8c7c7;
+  border: 1px solid #DD974B;
+  font-style: bold;
 }
 
 .content td {
-  background: #ebebeb;
-  color: #747474;
+  background: #fff;
+  color: black;
+  border: 1px solid #DD974B;
   text-align: left;
-  padding-left: 4px;
-  border-right: 1px solid #c8c7c7;
-  border-bottom: 1px solid #c8c7c7;
+  padding: 4px;
 }
 
 /*-------------------------------------------*
